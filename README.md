@@ -26,16 +26,15 @@ Limpe o cache de disco AGORA ou talvez terá problemas no cache
 
 Agora Role até embaixo em
 ##### Dynamic and Update Content
-Em
-##### Dynamic and Update Content, habilite o Cache Dynamic Content
-Em
-##### Custom refresh_patterns cole o conteúdo squid refresh_patterns na caixa de dialogo ao lado
-Salvar
 
-Na aba
-#### Traffic Mgmt -> Squid Transfer Quick Abort Setting
-Role até na opção
-#### Finish transfer if less than x KB remaining
+2. Dynamic and Update Content, habilite o Cache Dynamic Content
+3. Custom refresh_patterns cole o conteúdo squid refresh_patterns na caixa de dialogo ao lado
+4. Salvar
+
+Na Aba
+##### Traffic Mgmt -> Squid Transfer Quick Abort Setting
+vá até
+##### Finish transfer if less than x KB remaining
 adicione `-1`
 
 Para verifica se está funcionando vá até a aba realtime note esses status
