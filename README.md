@@ -12,12 +12,17 @@ services -> squid proxy server -> local cache
 Deixo as configs do meu server de armazenamento porem pode customizar o tamanho conforme seu hardware
 
 Squid Hard Disk Cache Settings
+
 Hard Disk Cache Size  300000
+
 Hard Disk Cache System  ufs
+
 Level 1 Directories   64
+
 Limpe o cache de disco AGORA ou talvez terá problemas no cache
 
 Squid Memory Cache Settings
+
 Memory Cache Size 128
 
 Agora Role até embaixo em Dynamic and Update Content
