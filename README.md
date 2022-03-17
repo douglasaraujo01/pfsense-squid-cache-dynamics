@@ -31,12 +31,12 @@ Agora Role até embaixo em
 3. Custom refresh_patterns cole o conteúdo [squidcache](./squidcache) na caixa de dialogo ao lado
 4. Salvar
 
-Na Aba
+
+# Importante !!
+na aba
 #### Traffic Mgmt
 vá até opção
-
 #### Squid Transfer Quick Abort Setting
-
 #### Finish transfer if less than x KB remaining
 adicione `-1`
 
