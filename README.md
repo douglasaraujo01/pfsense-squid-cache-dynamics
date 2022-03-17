@@ -5,8 +5,8 @@ Lista de padrões dynamic_refresh para usar com squid3 e pfsense, tive dificulda
 Esta lista foi projetada diretamente para ser usada com o pacote squid pfsense, porém esses padrões de atualização também devem funcionar sem usar o pacote específico do pfsense.
 Não posso confirmar se eles funcionarão com um pacote squid em outras distribuições, no entanto devem ter a mesma formatação, então sinta-se à vontade para tentar se assim o desejar.
 
-Após o Pacote squid instalado
-Para usar o padrão de atualização personalizado com squid no pfsense navegue até
+Após o Pacote squid instalado usar o padrão de atualização personalizado com squid no pfsense navegue até
+
 services -> squid proxy server -> local cache
 
 Deixo as configs do meu server de armazenamento porem pode customizar o tamanho conforme seu hardware
@@ -35,6 +35,7 @@ Para verifica se está funcionando vá até a aba realtime note esses status
 sinal que ele armazenou em cache e mandou direto para o cliente
 
 TCP_HIT/200
+
 TCP_MEM_HIT/200
 
 Às vezes, o cache do squid precisa ser redefinido se houver erros. https://docs.netgate.com/pfsense/en/latest/troubleshooting/squid.html
