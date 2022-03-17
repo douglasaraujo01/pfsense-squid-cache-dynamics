@@ -14,21 +14,15 @@ Deixo as configs do meu server de armazenamento porem pode customizar o tamanho 
 
 #### Squid Hard Disk Cache Settings
 
-    `
     Hard Disk Cache Size  300000
-
     Hard Disk Cache System  ufs
-
     Level 1 Directories   64
-    `
 
 Limpe o cache de disco AGORA ou talvez terá problemas no cache
 
 #### Squid Memory Cache Settings
 
-
 `Memory Cache Size 128`
-
 
 Agora Role até embaixo em Dynamic and Update Content
 Em Dynamic and Update Content, habilite o Cache Dynamic Content
@@ -44,11 +38,8 @@ adicione `-1`
 Para verifica se está funcionando vá até a aba realtime note esses status
 sinal que ele armazenou em cache e mandou direto para o cliente
 
-`
-TCP_HIT/200
-
-TCP_MEM_HIT/200
-`
+  TCP_HIT/200
+  TCP_MEM_HIT/200
 
 Às vezes, o cache do squid precisa ser redefinido se houver erros. https://docs.netgate.com/pfsense/en/latest/troubleshooting/squid.html
 
