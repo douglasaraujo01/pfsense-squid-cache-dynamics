@@ -1,4 +1,4 @@
-![pfsense](./pfsenselogo.png)
+<img src="images/pfsenselogo.png" alt="Pfsense" width="20%">
 
 ### squid-cache-dynamic_refresh-list
 
@@ -38,7 +38,7 @@ na aba **Traffic Mgmt**
 vá até opção
 
 **Squid Transfer Quick Abort Setting**
-- **Finish transfer if less than x KB remaining**
+1. **Finish transfer if less than x KB remaining**
 adicione `-1`
 
 Para verifica se está funcionando vá até a aba **realtime** note esses status
