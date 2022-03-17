@@ -38,6 +38,7 @@ na aba **Traffic Mgmt**
 vá até opção
 
 **Squid Transfer Quick Abort Setting**
+
     **Finish transfer if less than x KB remaining**
 adicione `-1`
 
