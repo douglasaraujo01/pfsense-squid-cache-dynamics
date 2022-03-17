@@ -38,8 +38,6 @@ sinal que ele armazenou em cache e mandou direto para o cliente
 TCP_HIT/200
 TCP_MEM_HIT/200
 
-
-
 Às vezes, o cache do squid precisa ser redefinido se houver erros. https://docs.netgate.com/pfsense/en/latest/troubleshooting/squid.html
 
 squid -k shutdown rm -rf /var/squid/cache squid -z squid squid -k parse (veja se há erros no refresh_patterns customizado).
