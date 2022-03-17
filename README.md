@@ -20,8 +20,6 @@ Limpe o cache de disco AGORA ou talvez terá problemas no cache
 Squid Memory Cache Settings
 Memory Cache Size 128
 
-os demais mantive padrão !!
-
 Agora Role até embaixo em Dynamic and Update Content
 Em Dynamic and Update Content, habilite o Cache Dynamic Content
 Em Custom refresh_patterns cole o conteúdo squid refresh_patterns na caixa de dialogo ao lado
