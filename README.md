@@ -33,14 +33,13 @@ Agora Role até embaixo em
 
 
 ### Importante !!
-na aba
-#### Traffic Mgmt
+na aba **Traffic Mgmt**
 vá até opção
-##### Squid Transfer Quick Abort Setting
-##### Finish transfer if less than x KB remaining
+**Squid Transfer Quick Abort Setting**
+  **Finish transfer if less than x KB remaining**
 adicione `-1`
 
-Para verifica se está funcionando vá até a aba realtime note esses status
+Para verifica se está funcionando vá até a aba **realtime** note esses status
 sinal que ele armazenou em cache e mandou direto para o cliente
 
     TCP_HIT/200
