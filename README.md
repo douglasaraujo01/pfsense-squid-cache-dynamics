@@ -32,12 +32,12 @@ Agora Role até embaixo em
 4. Salvar
 
 
-# Importante !!
+### Importante !!
 na aba
 #### Traffic Mgmt
 vá até opção
-#### Squid Transfer Quick Abort Setting
-#### Finish transfer if less than x KB remaining
+##### Squid Transfer Quick Abort Setting
+##### Finish transfer if less than x KB remaining
 adicione `-1`
 
 Para verifica se está funcionando vá até a aba realtime note esses status
