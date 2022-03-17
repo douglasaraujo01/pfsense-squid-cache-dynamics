@@ -14,13 +14,13 @@ Deixo as configs do meu server de armazenamento porem pode customizar o tamanho 
 
 #### Squid Hard Disk Cache Settings
 
-    ```
+    `
     Hard Disk Cache Size  300000
 
     Hard Disk Cache System  ufs
 
     Level 1 Directories   64
-    ```
+    `
 
 Limpe o cache de disco AGORA ou talvez terá problemas no cache
 
@@ -35,18 +35,20 @@ Em Dynamic and Update Content, habilite o Cache Dynamic Content
 Em Custom refresh_patterns cole o conteúdo squid refresh_patterns na caixa de dialogo ao lado
 Salvar
 
-Não pode esquecer na aba ##### Traffic Mgmt -> Squid Transfer Quick Abort Setting
-Role até embaixo na opção #### Finish transfer if less than x KB remaining
+Não pode esquecer na aba
+##### Traffic Mgmt -> Squid Transfer Quick Abort Setting
+Role até embaixo na opção
+#### Finish transfer if less than x KB remaining
 adicione `-1`
 
 Para verifica se está funcionando vá até a aba realtime note esses status
 sinal que ele armazenou em cache e mandou direto para o cliente
 
-```
+`
 TCP_HIT/200
 
 TCP_MEM_HIT/200
-```
+`
 
 Às vezes, o cache do squid precisa ser redefinido se houver erros. https://docs.netgate.com/pfsense/en/latest/troubleshooting/squid.html
 
